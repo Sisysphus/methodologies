@@ -14,3 +14,15 @@ def adamFunc(name):
 adam = 'hey'
 
 print(adamFunc(adam))
+
+
+def f(x):
+    x = int(z) + 1
+    return x
+
+
+z = input('how much now? ')
+try:
+    print(f(8))
+except ZeroDivisionError:
+    print('nope')
